@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Clink here](https://your-solution-url.com)
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Solution URL: [Clink here](https://www.frontendmentor.io/solutions/flexbox-responsive-design-mobile-first-bootstrap-5-iZlk46_7y)
+- Live Site URL: [Click here](https://hatwell-jonel.github.io/frontendmentor-previewcard/)
 
 ## My process
 
