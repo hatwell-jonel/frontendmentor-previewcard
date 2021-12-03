@@ -25,7 +25,7 @@ body{
   font-size: 15px;
   position: relative;
   min-height: 100vh;
-  background-color: var(--very-light-gray);
+  background-color: #f2f2f2;
 }
 
 a{
@@ -34,11 +34,12 @@ a{
 
 .wrapper{
   min-height: 100vh;
-  padding: 4rem 0rem;
+  padding: 5rem 0rem;
 }
 
 .box{
-  padding: 4rem 3rem;
+  max-height: 550px;
+  padding: 3.5rem 3rem 4rem;
 }
 
 .box h1{
@@ -46,12 +47,13 @@ a{
   text-transform: uppercase;
   font-family: var(--font-heading);
   margin: 2rem 0rem;
+  font-size: 2.1rem;
 }
 
 .box p{
   font-family: var(--font-body);
   color: var(--transparent-white);
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .box .learn-more{
@@ -61,6 +63,12 @@ a{
   background-color:var(--very-light-gray);
   border-radius: 50px;
   font-weight: 600;
+}
+
+.box .learn-more:hover{
+  background-color: transparent;
+  border: 1px solid var(--very-light-gray);
+  color: var(--very-light-gray);
 }
 
 .sedan{
@@ -91,12 +99,17 @@ a{
 
 
 @media (min-width: 768px) {
+  .wrapper{
+    align-items: center;
+    justify-content: center;
+  }
   .box{
-    padding: 2rem;
+    max-width: 275px;
+    padding: 3rem 2rem;
   }
 
   .box p{
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
   }
   
 
